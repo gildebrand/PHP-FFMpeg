@@ -4,6 +4,7 @@
     "description": "FFMpeg PHP, an Object Oriented library to communicate with AVconv / ffmpeg",
     "keywords": ["video processing", "video", "audio processing", "audio", "avconv", "ffmpeg", "avprobe", "ffprobe"],
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Romain Neutron",
@@ -33,11 +34,17 @@
     ],
     "require": {
         "php": "^5.3.9 || ^7.0",
-        "alchemy/binary-driver": "^1.5",
+        "alchemy/binary-driver": "^1.7.0",
         "doctrine/cache": "^1.0",
         "evenement/evenement": "^2.0 || ^1.0",
         "neutron/temporary-filesystem": "^2.1.1"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/gildebrand/BinaryDriver"
+        }
+    ],
     "suggest": {
         "php-ffmpeg/extras": "A compilation of common audio & video drivers for PHP-FFMpeg"
     },
