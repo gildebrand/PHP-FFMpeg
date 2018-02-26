@@ -35,7 +35,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": "^5.3.9 || ^7.0",
-        "alchemy/binary-driver": "1.7.0 as 1.7.0-dev",
+        "alchemy/binary-driver": "1.7.0@dev",
         "doctrine/cache": "^1.0",
         "evenement/evenement": "^2.0 || ^1.0",
         "neutron/temporary-filesystem": "^2.1.1"
